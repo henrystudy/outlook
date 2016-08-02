@@ -18,8 +18,8 @@ class Log4jTest
 	
 	public void log4jTest()
 	{
-		for(int i = 0; i < 10000; i ++)
-		{
+//		for(int i = 0; i < 10000; i ++)
+//		{
 //			System.out.println(this.getClass().getName());
 			logger.trace("This is a trace message...");
 			logger.debug("This is a debug message...");
@@ -27,7 +27,7 @@ class Log4jTest
 			logger.warn("This is a warn message...");
 			logger.error("This is a error message...");
 			logger.fatal("This is a fatal message...");
-		}
+//		}
 	}
 
 }

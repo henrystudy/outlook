@@ -1,16 +1,20 @@
-package testCases;
+package com.outlook.testCases;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.server.log.LoggingManager;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import base.Browser;
+import com.outlook.base.Browser;
 
 public class Test1 
 {
 	private WebDriver driver;
+	private Logger logger = LogManager.getLogger(this.getClass().getName());
 	Browser browser = new Browser(driver);
 	
 	@BeforeClass
@@ -22,7 +26,9 @@ public class Test1
 	@BeforeMethod
 	public void beforeMethod()
 	{
+		logger.info("Launching brower...");
 		browser.start("firefox");
+		logger.error("Browser is started successfully...");
 	}
 	
 	@Test

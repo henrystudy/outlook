@@ -1,6 +1,7 @@
-package base;
+package com.outlook.base;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
@@ -37,20 +38,25 @@ public class Browser
 				if(browserName.equals("firefox"))//equals是值比较, ==是地址比较
 				{
 					driver = new FirefoxDriver();
+					driver.manage().window().maximize();
 				}
 				else if(browserName.equals("ie32bit"))
 				{
 					System.setProperty("webdrier.ie.driver", "./files/IEDriverServer_Win32_2.53.1/IEDriverServer.exe");
 					driver = new InternetExplorerDriver();
+					driver.manage().window().maximize();
 				}
 				else if(browserName.equals("ie64bit"))
 				{
 					System.setProperty("webdriver.ie.driver", "./files/IEDriverServer_x64_2.53.1/IEDriverServer.exe");
 					driver = new InternetExplorerDriver();
+					driver.manage().window().maximize();
 				}
 				else if(browserName.equals("chrome"))
 				{
 					System.setProperty("webdriver.chrome.driver", "./files/chromedriver_win32/chromedriver.exe");
+					driver = new ChromeDriver();
+					driver.manage().window().maximize();
 				}
 				else
 				{

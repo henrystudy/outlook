@@ -10,12 +10,11 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 
 public class Screenshot 
 {
-	public void takeScreenshot(TakesScreenshot driver, String folderPath)
+	public static void takeScreenshot(TakesScreenshot driver, String folderPath)
 	{
 		SimpleDateFormat format = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss_SSS");
 		String currentTime = format.format(new Date().getTime());
@@ -40,5 +39,5 @@ public class Screenshot
 //		}
 	}
 	
-	Logger logger = LogManager.getLogger(this.getClass().getName());
+	private static Logger logger = LogManager.getLogger(Screenshot.class.getName());
 }

@@ -1,5 +1,7 @@
 package com.outlook.testCases;
 
+import java.io.File;
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -7,8 +9,10 @@ public class Test
 {
 	public static void main(String[] args) 
 	{
-		Log4jTest log4j = new Log4jTest();
-		log4j.log4jTest();
+//		Log4jTest log4j = new Log4jTest();
+//		log4j.log4jTest();
+		System.out.println(System.getProperty("user.dir"));
+		System.out.println((new File("./test-output")).exists());
 	}
 }
 

@@ -9,13 +9,13 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.outlook.base.Browser;
+import com.outlook.base.Driver;
 
 public class Test1 
 {
 	private WebDriver driver;
 	private Logger logger = LogManager.getLogger(this.getClass().getName());
-	Browser browser = new Browser(driver);
+	Driver browser = new Driver(driver);
 	
 	@BeforeClass
 	public void beforeClass()
@@ -27,7 +27,7 @@ public class Test1
 	public void beforeMethod()
 	{
 		logger.info("Launching brower...");
-		browser.start("firefox");
+		browser.start();
 		logger.error("Browser is started successfully...");
 	}
 	

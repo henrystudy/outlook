@@ -7,7 +7,6 @@ import java.util.Map;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.dom4j.Attribute;
 import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
@@ -57,6 +56,7 @@ public class ParseXml
 		return (Element)document.selectSingleNode(elementPath);
 	}
 	
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public List<Element> getElementObjects(String elementPath)
 	{
 //		Element rootElm = document.getRootElement();
@@ -117,6 +117,7 @@ public class ParseXml
 	private Document document;
 	private Logger logger = LogManager.getLogger(this.getClass().getName());
 	
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args)
 	{
 		ParseXml px = new ParseXml("./config/TestBaidu.xml");

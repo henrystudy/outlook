@@ -1,3 +1,40 @@
 
 2016-08-10 17:27:10。717 CST [main] INFO  com.outlook.base.Driver 78 - start(): 浏览器初始化-ok!
 2016-08-10 17:27:36。057 CST [main] INFO  com.outlook.base.Driver 78 - start(): 浏览器初始化-ok!
+2016-10-26 16:19:41。036 CST [main] ERROR com.outlook.base.ParseLocator 63 - loadExtendYamlFile(): Unable to find yaml file: outlook2, please check.
+2016-10-26 17:54:15。969 CST [main] ERROR com.outlook.base.ParseLocator 64 - loadExtendYamlFile(): Unable to find yaml file: outlook2, please check.
+2016-10-26 17:54:15。971 CST [main] ERROR com.outlook.base.ParseLocator 214 - getReplacedString(): Parameter [%s] does NOT exist, please check yaml file.
+2016-10-26 17:54:56。367 CST [main] ERROR com.outlook.base.ParseLocator 214 - getReplacedString(): Parameter [%s] does NOT exist, please check yaml file.
+2016-10-26 17:58:48。672 CST [main] ERROR com.outlook.base.ParseLocator 226 - getReplacedString(): Parameter [%s] does NOT exist, please check yaml file.
+2016-10-27 10:25:10。742 CST [main] ERROR com.outlook.base.ParseLocator 228 - getReplacedString(): Parameter [%s] does NOT exist, please check yaml file.
+2016-10-27 10:27:35。766 CST [main] ERROR com.outlook.base.ParseLocator 226 - getReplacedString(): Parameter [%s] does NOT exist, please check yaml file.
+2016-10-27 10:29:23。363 CST [main] ERROR com.outlook.base.ParseLocator 228 - getReplacedString(): Parameter [%s] does NOT exist, please check yaml file.
+2016-10-27 10:30:24。931 CST [main] ERROR com.outlook.base.ParseLocator 229 - getReplacedString(): Parameter [%s] does NOT exist, please check yaml file.
+2016-10-27 10:33:33。648 CST [main] ERROR com.outlook.base.ParseLocator 229 - getReplacedString(): Parameter [%s] does NOT exist, please check yaml file.
+2016-10-27 10:34:25。722 CST [main] ERROR com.outlook.base.ParseLocator 230 - getReplacedString(): Parameter [%s] does NOT exist, please check yaml file.
+2016-10-27 11:01:43。038 CST [main] ERROR com.outlook.base.ParseLocator 228 - getReplacedString(): Parameter [%ss] does NOT exist, please check yaml file.
+2016-10-27 14:18:07。364 CST [main] INFO  com.outlook.base.SeleniumDriver 79 - initDriver(): 浏览器初始化-ok!
+2016-10-27 14:21:37。585 CST [main] INFO  com.outlook.base.SeleniumDriver 79 - initDriver(): 浏览器初始化-ok!
+2016-10-27 14:55:42。411 CST [main] ERROR com.outlook.base.SeleniumDriver 76 - initDriver(): xml配置文件的browser节点配置[specifiedFirefox]不规范,请重新配置!
+2016-10-27 14:55:42。412 CST [main] ERROR com.outlook.base.SeleniumDriver 84 - initDriver(): 浏览器初始化异常: com.outlook.base.SeleniumDriver
+2016-10-27 14:55:42。413 CST [main] ERROR com.outlook.base.SeleniumDriver 76 - initDriver(): xml配置文件的browser节点配置[specifiedFirefox]不规范,请重新配置!
+2016-10-27 14:55:42。413 CST [main] ERROR com.outlook.base.SeleniumDriver 84 - initDriver(): 浏览器初始化异常: com.outlook.base.SeleniumDriver
+2016-10-27 14:57:07。160 CST [main] ERROR com.outlook.base.SeleniumDriver 76 - initDriver(): xml配置文件的browser节点配置[specifiedFirefox]不规范,请重新配置!
+2016-10-27 14:57:07。185 CST [main] ERROR com.outlook.base.SeleniumDriver 84 - initDriver(): 浏览器初始化异常: com.outlook.base.SeleniumDriver
+2016-10-27 14:57:30。054 CST [main] INFO  com.outlook.base.SeleniumDriver 133 - initSpecifiedDriver(): 浏览器初始化-ok!
+2016-10-27 14:57:49。116 CST [main] ERROR com.outlook.base.ParseLocator 163 - waitForElement(): Unable to catch By.xpath: .//*[@id='CredentialsInputPane']/div[2]/div[3]/div[2]/div/fieldset/div[1]/div/div/div/div[2]/div/div[2]/divuntil10.
+2016-10-27 15:06:14。333 CST [main] INFO  com.outlook.base.SeleniumDriver 133 - initSpecifiedDriver(): 浏览器初始化-ok!
+2016-10-27 15:08:17。353 CST [main] INFO  com.outlook.base.SeleniumDriver 133 - initSpecifiedDriver(): 浏览器初始化-ok!
+2016-10-27 15:10:22。711 CST [main] INFO  com.outlook.base.SeleniumDriver 133 - initSpecifiedDriver(): 浏览器初始化-ok!
+2016-10-27 15:11:27。639 CST [main] INFO  com.outlook.base.SeleniumDriver 133 - initSpecifiedDriver(): 浏览器初始化-ok!
+2016-10-27 15:14:19。321 CST [main] ERROR com.outlook.base.SeleniumDriver 76 - initDriver(): xml配置文件的browser节点配置[specifiedFirefox]不规范,请重新配置!
+2016-10-27 15:14:19。323 CST [main] ERROR com.outlook.base.SeleniumDriver 84 - initDriver(): 浏览器初始化异常: com.outlook.base.SeleniumDriver
+2016-10-27 15:24:55。997 CST [main] INFO  com.outlook.base.SeleniumDriver 133 - initSpecifiedDriver(): 浏览器初始化-ok!
+2016-10-27 15:46:34。216 CST [main] INFO  com.outlook.base.SeleniumDriver 143 - initSpecifiedDriver(): 浏览器初始化-ok!
+2016-10-27 15:47:01。564 CST [main] ERROR com.outlook.base.ParseLocator 163 - waitForElement(): Unable to catch By.xpath: .//*[@id='CredentialsInputPane']/div[2]/div[3]/div[2]/div/fieldset/div[1]/div/div/div/div[2]/div/div[2]/divuntil10.
+2016-10-27 15:48:58。800 CST [main] INFO  com.outlook.base.SeleniumDriver 143 - initSpecifiedDriver(): 浏览器初始化-ok!
+2016-10-27 15:49:38。714 CST [main] INFO  com.outlook.base.SeleniumDriver 143 - initSpecifiedDriver(): 浏览器初始化-ok!
+2016-10-27 15:51:43。040 CST [main] INFO  com.outlook.base.SeleniumDriver 142 - initSpecifiedDriver(): 浏览器初始化-ok!
+2016-10-27 15:53:14。333 CST [main] INFO  com.outlook.base.SeleniumDriver 142 - initSpecifiedDriver(): 浏览器初始化-ok!
+2016-10-27 15:55:49。466 CST [main] INFO  com.outlook.base.SeleniumDriver 142 - initSpecifiedDriver(): 浏览器初始化-ok!
+2016-10-27 16:00:34。372 CST [main] INFO  com.outlook.base.SeleniumDriver 142 - initSpecifiedDriver(): 浏览器初始化-ok!

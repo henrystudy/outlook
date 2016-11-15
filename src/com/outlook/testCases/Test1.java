@@ -2,20 +2,17 @@ package com.outlook.testCases;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.remote.server.log.LoggingManager;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import com.outlook.base.Driver;
+import com.outlook.base.SeleniumDriver;
 
 public class Test1 
 {
-	private WebDriver driver;
 	private Logger logger = LogManager.getLogger(this.getClass().getName());
-	Driver browser = new Driver(driver);
+	SeleniumDriver browser = new SeleniumDriver();
 	
 	@BeforeClass
 	public void beforeClass()
@@ -27,7 +24,7 @@ public class Test1
 	public void beforeMethod()
 	{
 		logger.info("Launching brower...");
-		browser.start();
+		browser.initDriver();
 		logger.error("Browser is started successfully...");
 	}
 	

@@ -8,12 +8,15 @@ baidu_input:
 baidu_button:
   type:xpath
   value:".//*[@id='%productid%']"
-  #怎么实现替换%productid%
 
 # 动态的value
 baidu_input1:
   type:id
   value:"s%"
-baidu_button1:
+baidu_button6:
   type:id
-  value:"s%s%"
+  value:"%s%s"
+baidu_button2:
+  type:xpath
+  value:".//*[@id='%productid%']"
+  #实现替换%productid%

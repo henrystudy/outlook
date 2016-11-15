@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+比如一个URL，所有的测试类都要用到，那在每一个XML的common都写一遍？这样也太麻烦了，于是乎，我
+们定义一个global的xml，让这个里面的数据也如common一样加载到最后返回给测试方法的数据中去，同理，
+优先级是测试方法数据>common>global
+ -->
+<data>
+	<url>http://www.jd.com</url>
+</data>

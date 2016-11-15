@@ -1,0 +1,25 @@
+# 注意缩进是2空格不是tab
+# 注意标点符号一定要准确,报错信息很有限
+# value可加引号可不加
+
+outlook_login_usr:
+  type:xpath
+  value:".//*[@id='CredentialsInputPane']/div[2]/div[3]/div[2]/div/fieldset/div[1]/div/div/div/div[2]/div/div[2]/div"
+outlook_login_pwd:
+  type:xpath
+  value:".//*[@id='CredentialsInputPane']/div[2]/div[3]/div[2]/div/fieldset/div[2]/div/div/div/div/div"
+outlook_login_loginButton:
+  type:xpath
+  value:".//*[@id='idSIButton9']"
+
+# 动态的value
+baidu_input1:
+  type:id
+  value:"s%"
+baidu_button1:
+  type:id
+  value:"%s%s"
+baidu_button2:
+  type:xpath
+  value:".//*[@id='%productid%']"
+  #实现替换%productid%
